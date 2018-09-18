@@ -1,0 +1,29 @@
+.page-wrapper {
+	display: flex;
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1320px;
+    }
+}
+
+.container-fluid {
+	/*display: flex;*/
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+#data-col {
+	float: left;
+	height: auto;
+}
+
+#chart-col {
+	float: left;
+	height: auto;
+}
+
+#data-col div {
+	height: 100px;
+}
