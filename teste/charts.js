@@ -1,5 +1,6 @@
 document.getElementById('main-content').ontouchmove = function(e) {
     e.stopPropagation();
+    e.preventDefault();
 };
 
 
