@@ -15,7 +15,7 @@
 }
 
 .card {
-	margin-top: 0.5em;
+	margin-top: 0.5rem;
 }
 
 #data-col {
@@ -29,5 +29,10 @@
 }
 
 #data-col div {
-	height: 100px;
+	/*height: 100px;*/
+}
+
+.btn-on-off {
+	height: 50px;
+	text-align: center;
 }
