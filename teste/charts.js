@@ -1,3 +1,8 @@
+document.getElementById('data-col').ontouchmove = function(e) {
+    e.stopPropagation();
+};
+
+
 //var latestProducts_labels = ['15:32', '15:31', '15:31', '15:31', '15:30', '15:30'];
 var latestProducts_labels = ['15:30', '', '', '', '', '15:32'];
 var latestProducts_data = [513, 508, 508, 512, 510, 512];
