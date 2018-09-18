@@ -1,4 +1,4 @@
-document.getElementById('data-col').ontouchmove = function(e) {
+document.getElementById('main-content').ontouchmove = function(e) {
     e.stopPropagation();
 };
 
