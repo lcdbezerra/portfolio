@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body style="overflow-y: hidden;">
 	<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		
 		<a class="navbar-brand" href="#" style="margin-left: 10px;">ESP32 Web Server</a>
@@ -24,7 +24,7 @@
 	</nav>-->
 		
 		<div class="container-fluid">
-			<div class="row bg-light" style="padding-top: 10px; padding-bottom: 10px;">
+			<div id="header" class="row bg-light" style="padding-top: 10px; padding-bottom: 10px;">
 				
 				<div class="col-2" style="float: left;">
 					<button class="btn btn-primary" style="float: left; margin-right: 10px;">
@@ -38,8 +38,8 @@
   					Hey there
   				</div>
 			</div>
-			<div class="row">
-				<div id="data-col" class="col-4" >
+			<div class="row" style="align-items: flex-start; overflow-y: hidden; -webkit-overflow-scrolling: touch;">
+				<div id="data-col" class="col-4" style="" >
 					<div class="card bg-light" style="">
 						<div class="card-body">
 							<h5 class="card-title" style="display:inline-block;">Esteira</h5>
@@ -96,16 +96,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="card bg-light" style="">
-						<div class="card-body">
-							<h5 class="card-title">Esteira</h5>
-						</div>
-					</div>
 
 				</div>
 
-				<div id="chart-col" class="col-8" style="background-color: blue; align-self: center;">
-					<img src="https://i.stack.imgur.com/L8d0H.jpg" style="width:100%; height: auto;" />
+				<div id="chart-col" class="col-8" style="">
+					<div class="card bg-light" style="">
+						<img src="https://i.stack.imgur.com/L8d0H.jpg" style="width:100%; height: auto;" />
+						<h6>blablabla</h6>
+					</div>
 				</div>
 			</div>
 		</div>

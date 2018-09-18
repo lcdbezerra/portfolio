@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
 .page-wrapper {
 	display: flex;
 }
@@ -10,22 +18,42 @@
 
 .container-fluid {
 	/*display: flex;*/
+	width: 100%;
+	position: relative;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	will-change: overflow;
+	overflow-y: hidden;
 }
 
 .card {
 	margin-top: 0.5rem;
 }
 
+#header {
+	position: relative;
+}
+
 #data-col {
 	float: left;
 	height: auto;
+	overflow: auto !important;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+
+	align-items: flex-start;
+	position: relative;
 }
 
 #chart-col {
+	position: relative;
 	float: left;
 	height: auto;
+	overflow: auto !important;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+
+	align-self: flex-start;
 }
 
 #data-col div {
