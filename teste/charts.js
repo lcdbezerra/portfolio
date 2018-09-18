@@ -1,7 +1,7 @@
-document.getElementById('main-content').ontouchmove = function(e) {
-    e.stopPropagation();
-    e.preventDefault();
-};
+//document.getElementById('main-content').ontouchmove = function(e) {
+//    e.stopPropagation();
+//    e.preventDefault();
+//};
 
 
 //var latestProducts_labels = ['15:32', '15:31', '15:31', '15:31', '15:30', '15:30'];
