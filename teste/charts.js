@@ -1,8 +1,10 @@
-//document.getElementById('main-content').ontouchmove = function(e) {
-//    e.stopPropagation();
-//    e.preventDefault();
-//};
+// document.ontouchmove = function(e) {
+//     e.stopPropagation();
+//     e.preventDefault();
+// };
 
+
+//document.getElementById('date_time').innerHTML = '19/09/2018<br />1:41 PM';
 
 //var latestProducts_labels = ['15:32', '15:31', '15:31', '15:31', '15:30', '15:30'];
 var latestProducts_labels = ['15:30', '', '', '', '', '15:32'];

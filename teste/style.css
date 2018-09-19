@@ -40,6 +40,14 @@ body, html, .container-fluid {
 	position: relative;
 }
 
+#header div {
+	align-self: center;
+}
+
+#date_time {
+	font-size: 1em;
+}
+
 #main-content {
 	height: 100%;
 }
